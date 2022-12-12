@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  color: inherit !important;
+}
+
+h3, p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.site-page-header {
+  border: 1px solid rgb(235, 237, 240);
+}
+
+button {
+  color: #fff !important
+}
+
+.ant-btn-default {
+  color: #000 !important
+}
+
+#__react-alert__ {
+  color: #fff !important
+}
