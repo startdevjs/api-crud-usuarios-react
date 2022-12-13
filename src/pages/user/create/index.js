@@ -56,6 +56,7 @@ const Create = () => {
     if (location?.state?.id) {
       getUser();
     }
+    // eslint-disable-next-line
   }, [location]);
 
   const save = (data) => {

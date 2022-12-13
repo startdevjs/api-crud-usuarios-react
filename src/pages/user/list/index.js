@@ -23,6 +23,8 @@ const List = () => {
   useEffect(() => {
     if (error) alert.error("Não foi possível realizar essa operação");
     if (success) alert.show("Operação realizada com sucesso");
+
+    // eslint-disable-next-line
   }, [error, success]);
 
   const columns = [
