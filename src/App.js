@@ -10,6 +10,8 @@ const App = () => {
     positions: positions.TOP_CENTER,
   };
 
+  console.log("aula de jenkins");
+
   return (
     <BrowserRouter>
       <Provider template={AlertTemplate} {...options}>
