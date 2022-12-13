@@ -41,7 +41,7 @@ const Create = () => {
     setValue,
     formState: { errors },
   } = useForm({
-    resolver: yupResolver(!location.state.id ? schema : schemaUpdate),
+    resolver: yupResolver(!location?.state?.id ? schema : schemaUpdate),
   });
 
   const getUser = async () => {
